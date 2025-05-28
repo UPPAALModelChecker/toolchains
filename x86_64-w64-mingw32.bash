@@ -2,8 +2,6 @@
 set -e
 
 TOOLCHAINS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SCRIPTS_DIR="$(dirname "$TOOLCHAINS_DIR")"
-PROJECT_DIR="$(dirname "$SCRIPTS_DIR")"
 
 TARGET=x86_64-w64-mingw32
 ADDRM=64
